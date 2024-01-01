@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:icon="@drawable/ic_media_audio_off_24"
+        android:label="@string/app_name">
+        <service
+            android:name=".QuickMediaMute"
+            android:icon="@drawable/ic_media_audio_off_24"
+            android:label="@string/label_media_audio_off"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".SoundsSettingsRedirect"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuickMediaMute</string>
+    <string name="label_media_audio_on">Sound</string>
+    <string name="label_media_audio_off">Mute</string>
+</resources>
