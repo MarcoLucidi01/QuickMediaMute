@@ -18,7 +18,8 @@ and when i want to unmute the audio, the previous volumes level is *lost*.
 install
 -------
 
-just grab the latest `.apk` from the releases page and install it on your phone.
+just grab the [latest `.apk` from the releases page][20] and install it on your
+phone.
 
 i'm not an "Android developer", so i won't bother putting this thing on the
 playstore (this was in fact my first Android "app").
@@ -30,6 +31,8 @@ otherwise you can build the `.apk` yourself if you don't trust me :), run:
 (you need the Android SDK of course), then the `.apk` will be at:
 
     app/build/outputs/apk/release/io.github.marcolucidi01.quickmediamute-v1.0.0-release.apk
+
+[20]: https://github.com/MarcoLucidi01/QuickMediaMute/releases/latest
 
 thanks
 ------
